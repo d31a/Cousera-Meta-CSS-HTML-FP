@@ -1,0 +1,234 @@
+
+/* eliminating browser defaults */
+
+*{
+
+    Margin:0;
+    
+    Padding:0;
+    
+    Border:0;
+    
+    box-sizing: border-box;
+
+    }
+
+/* setting the body / text defaults */
+
+body {
+    width: 100%;
+    color: #192126;
+    background-color:#dfd7d7;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 3rem;
+    color: #fdfafa;
+    margin-bottom: 2rem;
+
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    display:flex;
+
+}
+
+a {
+    text-decoration:none;
+    color:#8b6e6e;
+}
+
+/*logo code */
+
+header > img {
+
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2rem;
+    align-items: center;
+    
+}
+
+header {
+    padding-top: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/* responsive nav bar code */
+
+
+
+nav ul {
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #586470;
+  text-align:center;
+  border-bottom: 0.5rem solid #c26161;
+
+
+}
+
+nav li { 
+    display:inline-flex; 
+    font-size: 1rem;
+    font-family:'Lora', sans-serif;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+   
+}
+
+
+
+nav li > a {
+    display: block;
+    color:#fdfafa;
+    text-align: center;
+    padding: 1.5rem;
+    text-decoration: none;
+    text-align:center;
+    
+    
+    
+}
+
+nav li > a:hover {
+    color:#e6d9d9;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+
+li > a:hover:not(.active) {
+    background-color: #192126;
+    transition-duration: 0.5s;
+   
+}
+
+/* menu mobile */
+
+@media screen and (max-width: 700px) {
+    nav li {
+        display:block; 
+        border-bottom: 0.1rem solid #686f81; 
+    }
+
+    li > a:hover:not(.active) {
+        border-bottom: none;
+       
+    }
+    
+  }
+
+
+
+/* promo banner code */
+
+.cover {
+    
+    
+    display: flex;
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("https://benbagleydesign.com/wp-content/uploads/2022/10/cover-2-scaled.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align:center;
+    align-items:center;
+ 
+}
+
+.promo {
+    
+    flex: 1;
+    margin:1rem;
+
+} 
+
+p.offers {
+    
+    color: white;
+    margin:1rem;
+
+}
+
+
+
+/* responsive columns code */
+
+  
+.columns {
+  float: left;
+  width: 33.33%;
+  padding: 3rem;
+  height: 100%;
+}
+
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 900px) {
+    .columns {
+      width: 100%;
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+}
+
+
+.columns > img {
+    display:flex;
+    width:100%;
+    border-radius: 5%;
+
+}
+
+/*footer code */
+
+footer {
+    display: flex;
+    background-color: #192126;
+    color: #586470;
+    font-size: 0.85rem;
+    margin-top: 5rem;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    
+}
+
+footer div {
+    flex: 1;
+
+}
+
+footer div p {
+    text-align:center;
+    padding-top:1rem;
+    
+}
+
+
+#logoFooter {
+    height: 3rem;
+    margin-left: 3rem;
+}
+
+/* thanks for reviewing my work! */
